@@ -4,7 +4,8 @@ This repository contains a Node.js Express API that generates code like `({}+[])
 
 ## Play with it
 
-https://aliph0th.github.io/js-madness/
+https://aliph0th.github.io/js-madness/ - site
+https://jsmadnessapi.netlify.app/.netlify/functions/api - api url
 
 ## Installation
 
