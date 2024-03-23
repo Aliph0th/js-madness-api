@@ -8,8 +8,8 @@
    "license": "MIT",
    "scripts": {
       "dev": "nodemon",
-      "build": "netlify deploy --prod",
-      "start": "yarn run build && node dist/index.js"
+      "build": "tsc",
+      "start": "netlify build && netlify deploy --prod"
    },
    "dependencies": {
       "@netlify/functions": "^2.6.0",
