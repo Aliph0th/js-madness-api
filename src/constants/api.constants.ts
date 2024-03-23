@@ -1,17 +1,14 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 export const BASE_ENDPOINT = '/sequence';
 
-export const ENDPOINTS = {
-   GENERATE: '/',
-   EVALUATE: '/eval'
-};
 export const MESSAGES = {
-   WRONG_PAYLOAD: 'Payload must be string or number',
-   WRONG_ALLOW_PARAMETER: 'Allow parameter must be boolean or undefined'
+   WRONG_PAYLOAD_ENCODE: 'Payload must be a string or a number',
+   WRONG_PAYLOAD_DECODE: 'Payload must be a not empty string',
+   WRONG_ALLOW_PARAMETER: 'Allow parameter must be a boolean or an undefined',
+   FORBIDDEN_WORD: 'Payload should not contain words such as '
 };
 export const HTTP = {
    OK: 200,
-   CREATED: 201,
    INVALID: 400,
    TEAPOT: 418
 };
